@@ -1,6 +1,6 @@
 function dataOrg(callback) {
 
-    var json = null;
+    
 
     $.ajax({
 
@@ -8,7 +8,6 @@ function dataOrg(callback) {
         'url': "data/orgs.json",
         'dataType': "json",
         'success': function (data) {
-            //json=data;
             callback(data);
         }
     });
@@ -27,7 +26,6 @@ function dataUser(callback) {
         'dataType': "json",
         'success': function (data) {
             callback(data);
-            //json=data;
         }
     });
     return;
@@ -44,8 +42,8 @@ var MasterViewModel = function () {
         self.email = "";
         self.orgId = "";
 
-        self.organizations = null; // ko.mapping.fromJS(organizations);
-        self.users = null; //ko.mapping.fromJS(users);
+        self.organizations = null;
+        self.users = null; 
 
 
         self.filtUser = ko.observableArray([]);
@@ -70,7 +68,7 @@ var MasterViewModel = function () {
         };
 
         self.filter = function (contact) {
-            //  console.log(organizations.mappedIndexOf({id:35702}));
+           
             var unmapOrg = ko.mapping.toJS(self.organizations);
             var unmapUser = ko.mapping.toJS(self.users);
 
@@ -126,7 +124,7 @@ function createMasterViewUser(data) {
 }
 dataUser(createMasterViewUser);
 dataOrg(createMasterViewOrg);
-//var masterView = new MasterViewModel(dataOrg,dataUser);
+
 
 
 function handlerBindings() {
