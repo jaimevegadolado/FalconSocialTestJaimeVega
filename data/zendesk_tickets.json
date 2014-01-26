@@ -1,0 +1,332 @@
+[
+    {
+        "count": "14", 
+        "timestamp": "2014-01-23T06:24:08.257831", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "9", 
+        "timestamp": "2014-01-23T06:23:12.833935", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "4", 
+        "timestamp": "2014-01-23T06:22:19.497444", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "6", 
+        "timestamp": "2014-01-23T06:21:20.743444", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "10", 
+        "timestamp": "2014-01-23T06:21:13.649982", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-23T06:20:22.165906", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "6", 
+        "timestamp": "2014-01-23T06:19:12.664070", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "4", 
+        "timestamp": "2014-01-23T00:00:03.604428", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "3", 
+        "timestamp": "2014-01-22T00:00:04.391596", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-21T00:00:04.468099", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "12", 
+        "timestamp": "2014-01-20T00:00:03.558884", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "9", 
+        "timestamp": "2014-01-19T00:00:03.604343", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2014-01-18T00:00:03.909383", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "6", 
+        "timestamp": "2014-01-17T00:00:04.828017", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "12", 
+        "timestamp": "2014-01-16T00:00:04.423743", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "8", 
+        "timestamp": "2014-01-15T00:00:04.217701", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-14T00:00:03.673917", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "9", 
+        "timestamp": "2014-01-13T00:00:03.154349", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "3", 
+        "timestamp": "2014-01-12T00:00:03.564376", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-11T00:00:03.873445", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "10", 
+        "timestamp": "2014-01-10T00:00:04.608218", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2014-01-09T00:00:04.355952", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "4", 
+        "timestamp": "2014-01-08T00:00:04.632384", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "5", 
+        "timestamp": "2014-01-07T00:00:03.933527", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-06T00:00:03.546720", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "1", 
+        "timestamp": "2014-01-05T00:00:03.600601", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "10", 
+        "timestamp": "2014-01-04T00:00:03.613900", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "11", 
+        "timestamp": "2014-01-03T00:00:03.742586", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2014-01-02T00:00:03.317606", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "8", 
+        "timestamp": "2014-01-01T00:00:04.121686", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "4", 
+        "timestamp": "2013-12-31T00:00:04.207460", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "5", 
+        "timestamp": "2013-12-30T00:00:03.884153", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "3", 
+        "timestamp": "2013-12-29T00:00:03.415953", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "5", 
+        "timestamp": "2013-12-28T00:00:03.684476", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "6", 
+        "timestamp": "2013-12-27T00:00:03.788712", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "1", 
+        "timestamp": "2013-12-26T00:00:03.838113", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2013-12-25T00:00:03.951915", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-24T00:00:04.243759", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2013-12-23T00:00:03.989188", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "10", 
+        "timestamp": "2013-12-22T00:00:03.870751", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "13", 
+        "timestamp": "2013-12-21T00:00:03.602469", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "8", 
+        "timestamp": "2013-12-20T00:00:04.759057", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "3", 
+        "timestamp": "2013-12-19T00:00:04.363265", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "5", 
+        "timestamp": "2013-12-18T00:00:03.815050", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "6", 
+        "timestamp": "2013-12-17T00:00:03.968647", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "1", 
+        "timestamp": "2013-12-16T00:00:04.348877", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-15T00:00:03.927207", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "17", 
+        "timestamp": "2013-12-14T00:00:03.809662", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "14", 
+        "timestamp": "2013-12-13T00:00:04.605141", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "13", 
+        "timestamp": "2013-12-12T00:00:03.907774", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "18", 
+        "timestamp": "2013-12-11T00:00:03.674946", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "16", 
+        "timestamp": "2013-12-10T00:00:04.104673", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-09T00:00:03.857225", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "2", 
+        "timestamp": "2013-12-08T00:00:03.917318", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "21", 
+        "timestamp": "2013-12-07T00:00:03.490637", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "8", 
+        "timestamp": "2013-12-06T00:00:04.187342", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2013-12-05T00:00:04.369266", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "18", 
+        "timestamp": "2013-12-04T00:00:04.181273", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2013-12-03T00:00:04.220081", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-02T00:00:04.613179", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-01T00:00:03.640514", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "7", 
+        "timestamp": "2013-11-30T00:00:03.407024", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "10", 
+        "timestamp": "2013-11-29T00:00:03.271377", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "16", 
+        "timestamp": "2013-11-28T07:44:30.839277", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "12", 
+        "timestamp": "2013-11-27T15:12:13.629252", 
+        "key": "zendesk_total_tickets_daily"
+    }, 
+    {
+        "count": "13", 
+        "timestamp": "2013-11-27T13:57:24.721044", 
+        "key": "zendesk_total_tickets_daily"
+    }
+]

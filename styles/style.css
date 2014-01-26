@@ -1,0 +1,95 @@
+body
+{
+	background-color: lightgrey;
+	font: 10px sans-serif;
+}
+h1
+{
+	color: #333399;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+label
+{
+	font-size: 15px;
+}
+.imageFalcon
+{
+	height: 80px;
+	margin-left: 400px;
+	margin-top: 20px;
+	width: 80px;
+}
+.tableOrg
+{
+	float: left;
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+.idOrgTable
+{
+	text-align: center;
+	width: 50px;
+}
+.addUserDiv
+{
+	float: left;
+	margin-top: 10px;
+	width: 500px;
+}
+.nameOrganizations
+{
+	color: #333399;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.numOrganizations
+{
+	font-size: 26px;
+	margin-left: 30px;
+}
+.divUsers
+{
+	float: left;
+	margin-left: 50px;
+}
+.numUsers
+{
+	font-size: 18px;
+	margin-right: 300px;
+}
+.tableUser
+{
+	float: left;
+	margin-right: 100px;
+}
+.userEmailText
+{
+	color: darkgreen;
+	font-size: 18px;
+}
+.axis path,
+.axis line
+{
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke: #000;
+}
+.line
+{
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 3px;
+}
+.svg
+{
+}
+.svg2
+{
+}
+.svg3
+{
+}

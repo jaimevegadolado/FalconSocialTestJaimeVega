@@ -1,0 +1,415 @@
+[
+    {
+        "timestamp": "2014-01-23T00:05:05.327623", 
+        "nonerrorcount": "356698", 
+        "percent": "0.03419090858135754722", 
+        "errorcount": "122", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-22T00:05:05.460697", 
+        "nonerrorcount": "386906", 
+        "percent": "0.23156027271508287692", 
+        "errorcount": "898", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-21T00:05:04.503766", 
+        "nonerrorcount": "377844", 
+        "percent": "0.04021206573614535604", 
+        "errorcount": "152", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-20T00:05:02.892304", 
+        "nonerrorcount": "95859", 
+        "percent": "0.00938790837401426962", 
+        "errorcount": "9", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-19T00:05:02.754831", 
+        "nonerrorcount": "123525", 
+        "percent": "0.01537913617820371689", 
+        "errorcount": "19", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-18T00:05:04.730680", 
+        "nonerrorcount": "346264", 
+        "percent": "0.00750815790233619221", 
+        "errorcount": "26", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-17T00:05:04.933889", 
+        "nonerrorcount": "386450", 
+        "percent": "0.02147294021467766012", 
+        "errorcount": "83", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-16T00:05:04.452940", 
+        "nonerrorcount": "381044", 
+        "percent": "0.01915422298139416505", 
+        "errorcount": "73", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-15T00:05:04.741539", 
+        "nonerrorcount": "375007", 
+        "percent": "0.01359789685861920023", 
+        "errorcount": "51", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-14T00:05:04.116619", 
+        "nonerrorcount": "365802", 
+        "percent": "0.012026918430159138", 
+        "errorcount": "44", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-13T00:05:03.050640", 
+        "nonerrorcount": "94499", 
+        "percent": "0.01375486710682241408", 
+        "errorcount": "13", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-12T00:05:02.298600", 
+        "nonerrorcount": "110119", 
+        "percent": "0.00726434026169785793", 
+        "errorcount": "8", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-11T00:05:04.717676", 
+        "nonerrorcount": "376523", 
+        "percent": "0.01248107921501978384", 
+        "errorcount": "47", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-10T00:05:04.672135", 
+        "nonerrorcount": "436313", 
+        "percent": "0.02360133450652588356", 
+        "errorcount": "103", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-09T00:05:04.738639", 
+        "nonerrorcount": "382627", 
+        "percent": "0.03474762253108997805", 
+        "errorcount": "133", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-08T00:05:05.233358", 
+        "nonerrorcount": "419718", 
+        "percent": "0.00667070085242027321", 
+        "errorcount": "28", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-07T00:05:04.154276", 
+        "nonerrorcount": "389963", 
+        "percent": "0.0130764536657658443", 
+        "errorcount": "51", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-06T00:05:02.539370", 
+        "nonerrorcount": "130301", 
+        "percent": "0.01227775347805735246", 
+        "errorcount": "16", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-05T00:05:02.684136", 
+        "nonerrorcount": "142121", 
+        "percent": "0.00422157647737586806", 
+        "errorcount": "6", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-04T00:05:04.166061", 
+        "nonerrorcount": "354348", 
+        "percent": "0.00507949408238939402", 
+        "errorcount": "18", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-03T00:05:04.312293", 
+        "nonerrorcount": "335316", 
+        "percent": "0.01431280638351164705", 
+        "errorcount": "48", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-02T00:05:01.886471", 
+        "nonerrorcount": "84554", 
+        "percent": "0.01300774552119671259", 
+        "errorcount": "11", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2014-01-01T00:05:03.142625", 
+        "nonerrorcount": "149865", 
+        "percent": "0.01000800640512409928", 
+        "errorcount": "15", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-31T00:05:02.797660", 
+        "nonerrorcount": "206832", 
+        "percent": "0.00096695901060754035", 
+        "errorcount": "2", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-30T00:05:02.466314", 
+        "nonerrorcount": "109569", 
+        "percent": "0.00730080217563904834", 
+        "errorcount": "8", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-29T00:05:02.166727", 
+        "nonerrorcount": "106487", 
+        "percent": "0.00845102163461538462", 
+        "errorcount": "9", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-28T00:05:03.809757", 
+        "nonerrorcount": "262891", 
+        "percent": "0.09462643459755263358", 
+        "errorcount": "249", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-27T00:05:03.069248", 
+        "nonerrorcount": "149561", 
+        "percent": "0.04945367059845624353", 
+        "errorcount": "74", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-26T00:05:02.257013", 
+        "nonerrorcount": "84484", 
+        "percent": "0.00946835203332859916", 
+        "errorcount": "8", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-25T00:05:03.014513", 
+        "nonerrorcount": "125027", 
+        "percent": "0.06154879140555058192", 
+        "errorcount": "77", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-24T00:05:03.731879", 
+        "nonerrorcount": "263932", 
+        "percent": "0.01439557525476379892", 
+        "errorcount": "38", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-23T00:05:02.079658", 
+        "nonerrorcount": "77529", 
+        "percent": "0.01289673583615986794", 
+        "errorcount": "10", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-22T00:05:01.959752", 
+        "nonerrorcount": "86821", 
+        "percent": "0.04489983882109141147", 
+        "errorcount": "39", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-21T00:05:04.218419", 
+        "nonerrorcount": "371585", 
+        "percent": "0.04088912322421496919", 
+        "errorcount": "152", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-20T00:05:04.938863", 
+        "nonerrorcount": "439695", 
+        "percent": "0.02478376731453101836", 
+        "errorcount": "109", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-19T00:05:04.540877", 
+        "nonerrorcount": "420261", 
+        "percent": "0.03282595819685584409", 
+        "errorcount": "138", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-18T00:05:04.208247", 
+        "nonerrorcount": "346615", 
+        "percent": "0.06573579400478026081", 
+        "errorcount": "228", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-17T00:05:05.036522", 
+        "nonerrorcount": "371583", 
+        "percent": "0.17220813273727647868", 
+        "errorcount": "641", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-16T00:05:02.184961", 
+        "nonerrorcount": "90612", 
+        "percent": "0.037508549742956115", 
+        "errorcount": "34", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-15T00:05:02.036056", 
+        "nonerrorcount": "93400", 
+        "percent": "0.0321096007706304185", 
+        "errorcount": "30", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-14T00:05:02.051983", 
+        "nonerrorcount": "327070", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-13T00:05:02.912548", 
+        "nonerrorcount": "754283", 
+        "percent": "0.02836326718330225302", 
+        "errorcount": "214", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-12T00:05:03.755692", 
+        "nonerrorcount": "1184042", 
+        "percent": "0.05528839863695105162", 
+        "errorcount": "655", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-11T00:05:03.272643", 
+        "nonerrorcount": "1173273", 
+        "percent": "0.08839225724701548397", 
+        "errorcount": "1038", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-10T00:05:03.288269", 
+        "nonerrorcount": "1288370", 
+        "percent": "0.02196091577794798134", 
+        "errorcount": "283", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-09T00:05:02.117396", 
+        "nonerrorcount": "336723", 
+        "percent": "0.01514368686418785298", 
+        "errorcount": "51", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-08T00:05:02.756606", 
+        "nonerrorcount": "347764", 
+        "percent": "0.01293813558591065786", 
+        "errorcount": "45", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-07T00:05:03.829303", 
+        "nonerrorcount": "1124096", 
+        "percent": "0.00800579263573821414", 
+        "errorcount": "90", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-06T00:05:01.963174", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-05T00:05:01.984790", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-04T00:05:02.321724", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-03T00:05:01.537859", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-02T00:05:02.300260", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-12-01T00:05:02.192886", 
+        "nonerrorcount": "0", 
+        "percent": "0", 
+        "errorcount": "0", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-11-30T00:05:02.087763", 
+        "nonerrorcount": "359786", 
+        "percent": "0.02778657686045025369", 
+        "errorcount": "100", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-11-29T00:05:03.554886", 
+        "nonerrorcount": "1172840", 
+        "percent": "0.07165490452686888516", 
+        "errorcount": "841", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-11-28T00:05:03.423667", 
+        "nonerrorcount": "1136438", 
+        "percent": "0.01178983821526484904", 
+        "errorcount": "134", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-11-27T00:05:03.928947", 
+        "nonerrorcount": "1276908", 
+        "percent": "0.03155065602660589316", 
+        "errorcount": "403", 
+        "key": "percentage_total_daily"
+    }, 
+    {
+        "timestamp": "2013-11-26T08:03:18.923716", 
+        "nonerrorcount": "1241553", 
+        "percent": "0.02125917103727843958", 
+        "errorcount": "264", 
+        "key": "percentage_total_daily"
+    }
+]

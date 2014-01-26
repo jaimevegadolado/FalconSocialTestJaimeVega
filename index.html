@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>Falcon Social Test</title>
+
+<body>
+
+<img src="images/falconlogo.jpeg" class="imageFalcon">
+<h1>Falcon Social Test</h1>
+<p class="numOrganizations">
+    Organizations: (<span style="font-weight:bold;" data-bind="text:organizations().length"></span>)
+</p>
+<table border="1" data-bind="foreach:organizations" class="tableOrg">
+<tr>
+    <th>
+        ID
+    </th>
+    <th>
+        Organization
+    </th>
+</tr>
+<tr>
+    <td>
+        <button data-bind="click:$root.filter"><span data-bind="text:id"></span></button>
+    </td>
+    <td>
+        <p class="nameOrganizations">
+            <span data-bind="text:name"></span>
+        </p>
+    </td>
+    <td>
+        <button data-bind="click:$root.removeOrg">Delete</button>
+        <button data-bind="click:$root.editOrg">Edit</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <input class="idOrgTable" type="text" data-bind="value:id">
+    </td>
+    <td>
+        <input type="text" data-bind="value:name">
+    </td>
+</tr>
+</table>
+<div style="float:left;">
+    <label> Org Id: <input type="text" style="width:60px;" data-bind="value:id">
+    </label>
+    <label> Org Name: <input type="text" data-bind="value:Name">
+    </label>
+    <button data-bind="click:$root.addOrg">Add Organization</button>
+</div>
+
+<div class="addUserDiv">
+    <label>Org Id: <input type="text" style=" width:60px;" data-bind="value:orgId">
+    </label>
+    <label> Email User: <input type="text" style=" width:100px;" data-bind="value:email">
+    </label>
+    <button data-bind="click:$root.addUser">Add User</button>
+</div>
+<div class="divUsers">
+
+    <p class="numUsers">Users:(<span style="font-weight:bolder" data-bind="text:filtUser().length"></span>)</p>
+
+    <table style="tableUser" border=".5" data-bind="foreach:filtUser">
+    <tr>
+        <th>
+            User Email
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <span class="userEmailText" data-bind="text:email"></span></a>
+        </td>
+        <td>
+            <button data-bind="click:$root.removeUser">Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" data-bind="value:email">
+        </td>
+        <td>
+            <button data-bind="click:$root.editOrg">Edit</button>
+        </td>
+    </tr>
+    </table>
+
+
+</div>
+</body>
+<script src="js/knockout-3.0.0.js"></script>
+<script src="js/knockout.mapping-latest.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<!--<script type="text/javascript" src="data.js"></script>-->
+<script type="text/javascript" src="js/organizUser.js"></script>
+<script type="text/javascript" src="js/graph1.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+</html>

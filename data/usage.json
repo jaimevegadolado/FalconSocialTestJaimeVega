@@ -1,0 +1,302 @@
+[
+    {
+        "count": "564882", 
+        "timestamp": "2014-01-23T00:00:03.222499", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "701439", 
+        "timestamp": "2014-01-22T00:00:03.908828", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "518612", 
+        "timestamp": "2014-01-21T00:00:03.691722", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "127401", 
+        "timestamp": "2014-01-20T00:00:03.737103", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "128296", 
+        "timestamp": "2014-01-19T00:00:02.843825", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "445633", 
+        "timestamp": "2014-01-18T00:00:05.039623", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "505100", 
+        "timestamp": "2014-01-17T00:00:04.287829", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "478281", 
+        "timestamp": "2014-01-16T00:00:03.686845", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "495216", 
+        "timestamp": "2014-01-15T00:00:04.171330", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "432445", 
+        "timestamp": "2014-01-14T00:00:03.009727", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "106067", 
+        "timestamp": "2014-01-13T00:00:02.518779", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "114786", 
+        "timestamp": "2014-01-12T00:00:02.991847", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "446948", 
+        "timestamp": "2014-01-11T00:00:04.099210", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "483553", 
+        "timestamp": "2014-01-10T00:00:04.246906", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "427621", 
+        "timestamp": "2014-01-09T00:00:03.694218", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "468954", 
+        "timestamp": "2014-01-08T00:00:06.025251", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "440563", 
+        "timestamp": "2014-01-07T00:00:03.356418", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "133475", 
+        "timestamp": "2014-01-06T00:00:02.775978", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "144970", 
+        "timestamp": "2014-01-05T00:00:02.751616", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "440512", 
+        "timestamp": "2014-01-04T00:00:05.365653", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "385077", 
+        "timestamp": "2014-01-03T00:00:03.562498", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "86461", 
+        "timestamp": "2014-01-02T00:00:02.576781", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "153088", 
+        "timestamp": "2014-01-01T00:00:03.451567", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "221334", 
+        "timestamp": "2013-12-31T00:00:03.445288", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "111579", 
+        "timestamp": "2013-12-30T00:00:03.209074", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "107338", 
+        "timestamp": "2013-12-29T00:00:02.878311", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "303539", 
+        "timestamp": "2013-12-28T00:00:03.113899", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "152677", 
+        "timestamp": "2013-12-27T00:00:03.245115", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "86413", 
+        "timestamp": "2013-12-26T00:00:03.255821", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "128371", 
+        "timestamp": "2013-12-25T00:00:03.629832", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "333855", 
+        "timestamp": "2013-12-24T00:00:03.543357", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "81487", 
+        "timestamp": "2013-12-23T00:00:03.560602", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "87270", 
+        "timestamp": "2013-12-22T00:00:03.249879", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "429174", 
+        "timestamp": "2013-12-21T00:00:03.528317", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "491488", 
+        "timestamp": "2013-12-20T00:00:04.841883", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "466805", 
+        "timestamp": "2013-12-19T00:00:06.778960", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "426674", 
+        "timestamp": "2013-12-18T00:00:03.840449", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "433306", 
+        "timestamp": "2013-12-17T00:00:03.213283", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "124586", 
+        "timestamp": "2013-12-16T09:39:15.357765", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "90558", 
+        "timestamp": "2013-12-16T00:00:03.523518", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "93454", 
+        "timestamp": "2013-12-15T00:00:03.088357", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "327185", 
+        "timestamp": "2013-12-14T00:00:03.481729", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "755049", 
+        "timestamp": "2013-12-13T00:00:06.116445", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1185267", 
+        "timestamp": "2013-12-12T00:00:11.945249", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1173613", 
+        "timestamp": "2013-12-11T00:00:08.666538", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1289060", 
+        "timestamp": "2013-12-10T00:00:03.924826", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "336396", 
+        "timestamp": "2013-12-09T00:00:03.756596", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "347927", 
+        "timestamp": "2013-12-08T00:00:03.877028", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1124957", 
+        "timestamp": "2013-12-07T00:00:06.736250", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1313190", 
+        "timestamp": "2013-12-06T00:00:09.901847", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1368595", 
+        "timestamp": "2013-12-05T00:00:11.233563", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1324403", 
+        "timestamp": "2013-12-04T00:00:14.074289", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "679931", 
+        "timestamp": "2013-12-03T00:00:03.647710", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-02T00:00:02.890534", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "0", 
+        "timestamp": "2013-12-01T00:00:02.800124", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "360903", 
+        "timestamp": "2013-11-30T00:00:03.249202", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1173418", 
+        "timestamp": "2013-11-29T00:00:07.457766", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1136712", 
+        "timestamp": "2013-11-28T00:00:18.116700", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1277358", 
+        "timestamp": "2013-11-27T00:00:10.390318", 
+        "key": "usage_total_daily"
+    }, 
+    {
+        "count": "1246751", 
+        "timestamp": "2013-11-26T00:00:03.838445", 
+        "key": "usage_total_daily"
+    }
+]
