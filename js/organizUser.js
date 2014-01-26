@@ -1,7 +1,5 @@
 function dataOrg(callback) {
 
-    
-
     $.ajax({
 
         'global': false,
@@ -15,9 +13,6 @@ function dataOrg(callback) {
 }
 
 function dataUser(callback) {
-
-
-    var json = null;
 
     $.ajax({
 
