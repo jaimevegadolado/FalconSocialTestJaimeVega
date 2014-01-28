@@ -19,8 +19,23 @@ Step 5: Start an HHTP Server for instance on port 8000 : python -m SimpleHTTPSer
 Step 6: Open the browser with url: http://localhost:8000/
    
 -----------------
+UPDATE:
+
+I have added Bootstrap having a really much nicer app.
+
+When you click on the Performance Graphs it is fade in two graphs one with two line charts and another one with the 
+Zendeks Tickets. You can click again and it is fade out
+
+If you click on Organization you can see the lif of organizations you have, having the poissibility to add delete and edit those.
+
+If you click in one you can see the list of users in detail in that organization being able to add ,edit or delete.
+
+I have added bootstrap styles for the buttons Add, Delete and Edit.Bootstrap span and more functionalities
+
+I think now, it has a more sense of an app.
 
 
+------------------
 In this test I have been told to use Knockout.js and D3.js to play with some data saved in json files. 
 
 I have used the big ability of Knockout.js: the mapping, in order to update data automatically whenever the 
