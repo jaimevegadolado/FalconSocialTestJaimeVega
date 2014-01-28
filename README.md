@@ -3,6 +3,22 @@
                                               JaimeVega
                                         
                                       =========================
+                                      
+---------------------   
+
+Step1: Download as ZIP
+
+Step2:UNZIP the file
+
+Step 3: Open the terminal
+
+Step 4: Access the folder of the unzipped project
+
+Step 5: Start an HHTP Server for instance on port 8000 : python -m SimpleHTTPServer 8000
+
+Step 6: Open the browser with url: http://localhost:8000/
+   
+-----------------
 
 
 In this test I have been told to use Knockout.js and D3.js to play with some data saved in json files. 

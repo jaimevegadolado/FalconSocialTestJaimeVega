@@ -18,8 +18,11 @@ $("#showOrganizations").click(function () {
     }
 });
 
+<<<<<<< HEAD
 function dataOrg(callback) {
 
+=======
+>>>>>>> 0f7d12f4af11614646c491eee771c5e5a6a4152b
     $.ajax({
 
         'global': false,
@@ -33,9 +36,6 @@ function dataOrg(callback) {
 }
 
 function dataUser(callback) {
-
-
-    var json = null;
 
     $.ajax({
 
