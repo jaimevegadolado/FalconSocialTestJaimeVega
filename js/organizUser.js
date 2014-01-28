@@ -1,6 +1,24 @@
-function dataOrg(callback) {
+var hideOrg = false;
+$("#Org").hide()
+$("#numUsers").hide()
+$("#Users").hide()
 
-    
+$("#showOrganizations").click(function () {
+    if (hideOrg) {
+        $("#numUsers").hide()
+        $("#Org").hide()
+        $("#Users").hide()
+        hideOrg = false;
+    } else {
+
+        $("#numUsers").hide()
+        $("#Users").hide()
+        $("#Org").fadeIn(1000)
+        hideOrg = true;
+    }
+});
+
+function dataOrg(callback) {
 
     $.ajax({
 
@@ -31,7 +49,6 @@ function dataUser(callback) {
     return;
 }
 
-
 var MasterViewModel = function () {
 
         var self = this;
@@ -41,12 +58,15 @@ var MasterViewModel = function () {
 
         self.email = "";
         self.orgId = "";
+        self.userType = "";
+        self.userId = "";
 
         self.organizations = null;
-        self.users = null; 
-
+        self.users = null;
 
         self.filtUser = ko.observableArray([]);
+
+        self.organizationName = ko.observableArray([]);
 
         self.addOrg = function () {
 
@@ -59,31 +79,42 @@ var MasterViewModel = function () {
 
         self.removeOrg = function (contact) {
             self.organizations.remove(contact);
-            console.log(self.organizations());
+
         };
 
         self.editOrg = function (contact) {
             self.Name = "";
-            self.id = "";            
+            self.id = "";
         };
 
         self.filter = function (contact) {
-           
+
             var unmapOrg = ko.mapping.toJS(self.organizations);
+
             var unmapUser = ko.mapping.toJS(self.users);
 
             self.filtUser.removeAll();
+            self.organizationName.removeAll();
 
             var index = self.organizations.indexOf(contact);
 
             for (var i = 0; i < unmapUser.length; i++) {
 
                 if (unmapOrg[index].id == unmapUser[i].orgid) {
-                    console.log(unmapUser[i].orgid);
+
 
                     self.filtUser.push(self.users()[i]);
+                    console.log(self.users()[i]);
                 }
             };
+            self.organizationName.push(self.organizations()[index]);
+
+            $("#numUsers").fadeIn(2500)
+            $("#Org").fadeOut("slow")
+            $("#Users").fadeIn(2500)
+
+
+            hideOrg = false;
         }
 
         self.removeUser = function (user) {
@@ -104,12 +135,14 @@ var MasterViewModel = function () {
                     self.filtUser.push({
                         orgid: parseInt(self.orgId),
                         email: self.email,
+                        usertype:parseInt(self.userType),
+                        userid:parseInt(self.userId)
+
                     });
                 }
             };
         };
     };
-
 
 var masterView = new MasterViewModel();
 

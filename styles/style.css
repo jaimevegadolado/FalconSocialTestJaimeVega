@@ -1,19 +1,14 @@
-body
-{
-	background-color: lightgrey;
-	font: 10px sans-serif;
-}
+
+@import url("bootstrap.css");
+
 h1
 {
-	color: #333399;
+	
 	font-size: 30px;
 	text-align: center;
 	text-decoration: underline;
 }
-label
-{
-	font-size: 15px;
-}
+
 .imageFalcon
 {
 	height: 80px;
@@ -83,6 +78,12 @@ label
 	fill: none;
 	stroke: steelblue;
 	stroke-width: 3px;
+}
+.line2
+{
+  fill: none;
+  stroke:green;
+  stroke-width: 3px;
 }
 .svg
 {

@@ -1,91 +1,167 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8">
 <title>Falcon Social Test</title>
 
+<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+
+</head>
 <body>
 
+<div class="container">
 <img src="images/falconlogo.jpeg" class="imageFalcon">
 <h1>Falcon Social Test</h1>
-<p class="numOrganizations">
-    Organizations: (<span style="font-weight:bold;" data-bind="text:organizations().length"></span>)
-</p>
-<table border="1" data-bind="foreach:organizations" class="tableOrg">
-<tr>
-    <th>
-        ID
-    </th>
-    <th>
-        Organization
-    </th>
-</tr>
-<tr>
-    <td>
-        <button data-bind="click:$root.filter"><span data-bind="text:id"></span></button>
-    </td>
-    <td>
-        <p class="nameOrganizations">
-            <span data-bind="text:name"></span>
-        </p>
-    </td>
-    <td>
-        <button data-bind="click:$root.removeOrg">Delete</button>
-        <button data-bind="click:$root.editOrg">Edit</button>
-    </td>
-</tr>
-<tr>
-    <td>
-        <input class="idOrgTable" type="text" data-bind="value:id">
-    </td>
-    <td>
-        <input type="text" data-bind="value:name">
-    </td>
-</tr>
-</table>
-<div style="float:left;">
-    <label> Org Id: <input type="text" style="width:60px;" data-bind="value:id">
-    </label>
-    <label> Org Name: <input type="text" data-bind="value:Name">
-    </label>
-    <button data-bind="click:$root.addOrg">Add Organization</button>
+
+<div class="hero-unit" >
+    <h2 id="showGraphs" style="border:3px solid #c6c1b8;">Performance Graphs</h2>
+    <div id="graphs"></div>
 </div>
 
-<div class="addUserDiv">
-    <label>Org Id: <input type="text" style=" width:60px;" data-bind="value:orgId">
-    </label>
-    <label> Email User: <input type="text" style=" width:100px;" data-bind="value:email">
-    </label>
-    <button data-bind="click:$root.addUser">Add User</button>
+
+
+<div class="hero-unit" style="background-color:lightblue; ">
+<h2 id="showOrganizations" style="border:3px solid #c6c1b8;">Organizations</h2>    
 </div>
-<div class="divUsers">
 
-    <p class="numUsers">Users:(<span style="font-weight:bolder" data-bind="text:filtUser().length"></span>)</p>
+<div id="Org">
+    <div class="row">
+        <div class="span6">
+            <label> Org Id: <input type="text" style="width:60px;" data-bind="value:id">
+            </label>
+            <label> Org Name: <input type="text" data-bind="value:Name">
+            <button class="btn btn-small btn-success" data-bind="click:$root.addOrg">Add Organization</button>
+            </label>
+        </div>
+    </div>
 
-    <table style="tableUser" border=".5" data-bind="foreach:filtUser">
-    <tr>
-        <th>
-            User Email
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <span class="userEmailText" data-bind="text:email"></span></a>
-        </td>
-        <td>
-            <button data-bind="click:$root.removeUser">Delete</button>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="text" data-bind="value:email">
-        </td>
-        <td>
-            <button data-bind="click:$root.editOrg">Edit</button>
-        </td>
-    </tr>
-    </table>
+   <ul class="nav nav-list">
+        <li class="nav-header">Organizations: (<span style="font-weight:bold;" data-bind="text:organizations().length"></span>)</li>
+         <li>
+            <table border="1" data-bind="foreach:organizations" class="tableOrg">
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            Organization
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                            <a href="#" data-bind="click:$root.filter"><span data-bind="text:id"></span></a>
+                            </div>
+                        </td>
+                    <td>
+                        <p class="nameOrganizations">
+                            <span data-bind="text:name"></span>
+                        </p>
+                    </td>
+                    <td style="border:0px;">
+                        <button  class="btn btn-small btn-danger" data-bind="click:$root.removeOrg">Delete</button>
+                            
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="idOrgTable" type="text" data-bind="value:id">
+                    </td>
+                    <td>
+                            <input type="text" data-bind="value:name">
+                    </td>
+                    <td>
+                        <button class="btn btn-small btn-info" data-bind="click:$root.editOrg">Edit</button>
+                    </td>
+                </tr>
+                </table>
 
+            </li>
+        </ul>
 
 </div>
+
+
+
+ <div id="Users">
+
+    <div class="row">
+  
+            <label class="span6">User Type: <input type="text" style=" width:30px;" data-bind="value:userType">
+            </label>
+            <label class="span6">Org Id: <input type="text" style=" width:60px;" data-bind="value:orgId">
+            </label>
+            <label class="span5"> Email User: <input type="text" style=" width:100px;" data-bind="value:email">
+            </label>
+            <label class="span7">User Id: <input type="text" style=" width:150px;" data-bind="value:userId">
+            <button class="btn btn-small btn-success" data-bind="click:$root.addUser">Add User</button>
+            </label>
+            
+           
+        </div>
+
+    <ul class="nav nav-list"> 
+        <ul style="font-size:20px;font-weight:bold;text-decoration:underline; margin-bottom:10px;"data-bind="foreach:organizationName">
+             <li><span data-bind="text:id"></span>
+            <span data-bind="text:name"></span></li>
+         </ul>
+ 
+        <li id="numUsers">
+        Users:(<span style="font-weight:bolder" data-bind="text:filtUser().length"></span>)
+        </li>
+
+        <li>
+
+            <table style="tableUser" border=".5" data-bind="foreach:filtUser">
+                <tr>
+                    <th>
+                    User Type
+                    </th>
+                    <th>
+                    User Email
+                    </th>
+                    <th>
+                     User Id
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <span data-bind="text:usertype"></span>
+                    </td>
+                    <td>
+                        <span class="userEmailText" data-bind="text:email"></span>
+                    </td>
+                    <td>
+                        <span data-bind="text:userid"></span>
+                    </td>
+                    <td>
+                        <button data-bind="click:$root.removeUser">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" data-bind="value:usertype">
+                    </td>
+                    <td>
+                        <input type="text" data-bind="value:email">
+                    </td>
+                    <td>
+                         <input type="text" data-bind="value:userid">
+                    </td>
+                    <td>
+                        <button data-bind="click:$root.editOrg">Edit</button>
+                    </td>
+                </tr>
+            </table>
+
+        </li>
+
+    </ul>
+</div> 
+</div>
+
 </body>
 <script src="js/knockout-3.0.0.js"></script>
 <script src="js/knockout.mapping-latest.js"></script>
@@ -93,5 +169,8 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/organizUser.js"></script>
 <script type="text/javascript" src="js/graph1.js"></script>
-<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+
+
+<script src="js/bootstrap.js"></script>
+
 </html>
