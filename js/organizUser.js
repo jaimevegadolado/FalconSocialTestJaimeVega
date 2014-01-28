@@ -121,15 +121,17 @@ var MasterViewModel = function () {
         };
 
         self.addUser = function () {
-            var unmapFilter = ko.mapping.toJS(self.filtUser);
+            var unmapFilter = ko.mapping.toJS(self.organizationName);
 
             self.users.push({
-                orgid: parseInt(self.orgId),
-                email: self.email,
+                        orgid: parseInt(self.orgId),
+                        email: self.email,
+                        usertype:parseInt(self.userType),
+                        userid:parseInt(self.userId)
             });
 
-            if (unmapFilter.length > 0) {
-                if (unmapFilter[0].orgid == parseInt(self.orgId)) {
+           
+                if (unmapFilter[0].id == parseInt(self.orgId)) {
                     self.filtUser.push({
                         orgid: parseInt(self.orgId),
                         email: self.email,
@@ -137,8 +139,8 @@ var MasterViewModel = function () {
                         userid:parseInt(self.userId)
 
                     });
-                }
-            };
+                };
+            
         };
     };
 
