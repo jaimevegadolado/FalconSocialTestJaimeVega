@@ -26,7 +26,7 @@ I have added Bootstrap having a really much nicer app.
 When you click on the Performance Graphs it is fade in two graphs one with two line charts and another one with the 
 Zendeks Tickets. You can click again and it is fade out
 
-If you click on Organization you can see the lif of organizations you have, having the poissibility to add delete and edit those.
+If you click on Organization you can see the list of organizations you have, having the possibility to add delete and edit the name.
 
 If you click in one you can see the list of users in detail in that organization being able to add ,edit or delete.
 
