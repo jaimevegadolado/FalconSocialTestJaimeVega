@@ -9,6 +9,11 @@ $("#showGraphs").click(function () {
 
         $("#graphs").fadeIn(2000)
 
+          hide = true;
+    }
+
+});
+
         var margin1 = {
             top: 70,
             right: 50,
@@ -121,7 +126,4 @@ $("#showGraphs").click(function () {
 
             svg2.append("path").datum(data).attr("class", "line").attr("d", line1);
         });
-        hide = true;
-    }
-
-});
+  
