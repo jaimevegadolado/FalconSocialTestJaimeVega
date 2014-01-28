@@ -1,4 +1,5 @@
 var hide = false;
+$("#graphs").hide()
 
 $("#showGraphs").click(function () {
 
